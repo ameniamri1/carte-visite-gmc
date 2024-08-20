@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #fce4ec; 
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.carte {
+  background-color: #ffffff; 
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.photo {
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.photo img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.infos {
+  text-align: center;
+}
+
+.infos h2 {
+  margin: 0;
+  color: #e91e63; /* Rose vif pour le titre */
+  font-size: 24px;
+}
+
+.infos p {
+  color: #f06292; /* Rose moyen pour le texte */
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  color: #fff;
+  background-color: #e91e63; /* Rose vif pour le bouton */
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #c2185b; /* Rose plus foncé au survol */
+}
